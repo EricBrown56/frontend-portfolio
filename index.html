@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Project</title>
+</head>
+<body>
+    <header>
+        <h1>My Personal Portfolio</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume Info</a>
+            <a href="blog.html">Blog</a>
+            <a href="projects.html">Projects</a>
+
+        </nav>
+    </header>
+
+    <section>
+        <h2>Hello and welcome to my page</h2>
+
+        <img src="images/sxsw_img.jpg" alt="Eric Brown" width="300" 
+        alt="south by southwest image">
+        <img src="images/eric_stix.jpeg" alt="Eric Brown" width="200" 
+        alt="standing in front of Austin city limits">
+        <img src="images/games.jpg" alt="Video Games" width="600" 
+        alt="cataloge of video games">
+        <img src="images/board_games2.jpg" alt="Board Games" width="500"
+        alt="collection of board games">
+
+        <p>My name is Eric Brown and I am a web developer. I have experience with 
+            HTML, CSS, and JavaScript. I am passionate about creating beautiful and 
+            functional websites. Feel free to explore my portfolio and contact me if 
+            you have any questions or would like to work together.
+        </p>
+
+        <h2>About Me</h2>
+
+        <p>I have been working in the web development field for over 5 years. I 
+            have experience with front-end and back-end development, as well as 
+            design and user experience. I am always looking to learn new 
+            technologies and improve my skills. 
+        </p>
+        
+        <h2>Things I like to do in my spare time</h2>
+        
+        <table border="1" width="600">
+            <tr><!--table row-->
+                <th>Hobby</th><!--table headers aka columns-->
+                <th>Description</th>
+                <th>More Detail</th>
+            </tr>
+
+            <tr>
+                <td>
+                    Building Computers
+                </td>
+                <td>
+                    I enjoy building custom computers and experimenting with 
+                    different hardware configurations. I find it fascinating to 
+                    see how different components work together to create a 
+                    powerful machine.
+                </td>
+                
+                <td>
+                    <video width="320" height="240" aria-controls="play" controls> 
+                        <source src="media/computer_vid.mp4" type="video/mp4"> 
+                        Your browser does not support the video element 
+                    </video>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Playing Video Games
+                </td>
+
+                <td>
+                    I am an avid gamer and enjoy playing a wide variety of 
+                    video, arcade and board games. I find that gaming helps me 
+                    relax and unwind after a long day of work.
+                </td>
+                
+                <td>
+                    <img src="images/arcade.jpg" width="300" height="400" 
+                    alt="arcade games">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Playing the Drums
+                </td>
+
+                <td>
+                    I have been playing the drums for over 20 years and 
+                    I am currently in 6 bands. I find that playing music 
+                    is a great way to express myself and connect with others.
+                </td>
+
+                <td>
+                    These are the bands I am in and the music I play:
+                    <ul>
+                        <li>
+                            <a href="https://linktr.ee/Loskurados" target="_blank">
+                                Los Kurados</a>
+                        </li>
+                        <li>
+                            <a href="https://malanotamusic.com" target="_blank">
+                                Mala Nota</a>
+                        </li>
+                        <li>
+                            <a href="https://lovethunderatx.com/" target="_blank">
+                                Tricky & the Love Thunder</a>
+                        </li>
+                        <li>
+                            <a href="https://batcitybrassband.com/" target="_blank">
+                                Bat City Brass Band</a>
+                        </li>
+                        <li>
+                            <a href="https://www.buffaloeandtheheard.com/" target="_blank">
+                                Buffaloe and the Heard</a>
+                        </li>
+                        <li>
+                            <a href="https://numbersatx.com/" target="_blank">
+                                The Numbers</a>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Contact Me</h2>
+
+        <p><ul>
+            <li>
+                If you would like to get in touch with me, please send me an   
+                <a href="mailto:eric.brown@owasp.org">email</a>.
+            </li>
+            <li>
+                You can also connect with me on 
+                <a href="https://www.linkedin.com/in/eric-brown-25845690/" 
+                target="_blank">LinkedIn</a>.
+            </li>
+            <li>
+                I also have a GitHub account where you can view my projects:
+                <a href="https://github.com/EricBrown56" target="_blank">GitHub</a>.
+            </li>
+        </p></ul>
+
+        <h2>Feedback</h2>
+        
+        <p>If you have any feedback or suggestions for my portfolio, please 
+            feel free to leave a comment below. I am always looking to improve 
+            and would love to hear from you.
+        </p>
+
+    </section>
+
+    <footer>
+
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" 
+                placeholder="Enter your name" autocomplete="name" required >
+            <br><br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" cols="50"
+                placeholder="Enter your message here">
+            </textarea>
+            <br><br>
+
+            <button type="reset" aria-label="Reset Form">Reset</button>
+            <button type="submit" aria-label="Submit Form">Submit</button>
+
+        </form>
+    </footer>    
+    
+</body>
+</html>
