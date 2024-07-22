@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
+    <link rel="stylesheet" href="projects.css">
 </head>
 <body>
     <main>
+        <nav>
+            <button><a href="index.html">Home</a></button>
+            <button><a href="resume.html">Resume Info</a></button>
+            <button><a href="blog.html">Blog</a></button>
+            <button><a href="projects.html">Projects</a></button>
+        </nav>
+
         <header>
             <h1>My Projects</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="resume.html">Resume Info</a>
-                <a href="blog.html">Blog</a>
-                <a href="projects.html">Projects</a>
-            </nav>
+            
         </header>
 
         <section>
             <h2>Project 1</h2>
 
-            <table border="1">
+            <table border="1" class="table_container">
                 <tr>
                     <th>Project Name</th>
                     <th>Description</th>
@@ -30,9 +33,9 @@
                 <tr>
                     <td>Online Portfolio</td>
                     <td>
-                        This is a simple project that 
-                        demonstrates the use of HTML to create a basic webpage. 
-                        The project includes a header, navigation bar, 
+                        This is a project that 
+                        demonstrates the use of HTML and CSS  to create a basic 
+                        webpage. The project includes a header, navigation bar, 
                         main content area, and footer.
                     </td>
                     <td><a href="https://github.com/EricBrown56/frontend-portfolio">
@@ -46,7 +49,7 @@
         <section>
             <h2>Project 2</h2>
 
-            <table border="1">
+            <table border="1" class="table_container">
                 <tr>
                     <th>Project Name</th>
                     <th>Description</th>
@@ -65,7 +68,9 @@
                 </tr>
             </table>
         </section>
-
+        <footer>
+            <p>&copy; 2024 Eric Brown. All rights reserved.</p>
+        </footer>
         
 </body>
 </html>

@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
+    <link rel="stylesheet" href="blog.css">
 </head>
-<body>
+<body class="averia-serif-libre-regular">
+    <nav>
+        <button><a href="index.html">Home</a></button>
+        <button><a href="resume.html">Resume Info</a></button>
+        <button><a href="blog.html">Blog</a></button>
+        <button><a href="projects.html">Projects</a></button>
+
+    </nav>
     <header>
         <h1>Welcome to my Blog</h1>
 
-        <figure>
-            <img src="images/computer.jpg" alt="My self-built computer" style="width:400px;">
-            <figcaption>Fig.1 - Screenshot of my self-built computer.</figcaption>
+        <figure class="image_container">
+            <img src="images/computer.jpg" alt="My self-built computer" style="width:800px;">
+            <!-- <figcaption>Fig.1 - Screenshot of my self-built computer.</figcaption> -->
         </figure>
 
         <p>
             <h3>Here you will find my thoughts and musings on software engineering.</h3>
         </p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume Info</a>
-            <a href="blog.html">Blog</a>
-            <a href="projects.html">Projects</a>
-        </nav>
+        
     </header>
 
     <section>
@@ -39,8 +42,9 @@
         <article>
             <h2>Will AI Replace Software Engineers?</h2>
 
-            <a href="https://www.comptia.org/blog/will-ai-replace-software-developers" 
-                target="_blank">Blog post
+            <a 
+            href="https://www.comptia.org/blog/will-ai-replace-software-developers" 
+                target="_blank" class="blog_link">Read Blog Here
             </a>
 
             <p>
@@ -57,27 +61,31 @@
             </h2>
 
             <a href="https://www.revelo.com/blog/security-in-software-development" 
-            target="_blank">Blog post
+            target="_blank" class="blog_link">Blog post
             </a>
             
             <p>
                 This article explores the role software engineering has in cyber 
-                security and things that can be done to make web pages etc more 
-                secure.
+                security and things that can be done to make web pages, apps,
+                and anything else that has access to the internet more secure.
             </p>
         </article>
 
         <article>
             <h3>
-                For more blogs on software engineering, check out this link
+                For more blogs on software engineering, check out the link below.
             </h3>
 
             <a href="https://runcloud.io/blog/best-newsletters-for-developers" 
-            target="_blank">Software Engineering Blogs</a>
+            target="_blank" class="blog_link">Software Engineering Blogs</a>
 
-            <p>
+            <p style=text-align:center>
                 This is a list of 22 of the most popular newsletters for developers.
             </p>
         </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Eric Brown. All rights reserved.</p>
+    </footer>
 </body>
 </html>
