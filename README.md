@@ -1,6 +1,6 @@
 # Personal Portfolio Project
 
-In this project you will see my personal portfolio. 
+In this project you will see my personal portfolio using CSS as well to enhance the quality of the site so it doesnt look like it came from the 90s.  
 
 ### Running the application
 Once in the application, select the video presentation page to view the presentation of the project. 
